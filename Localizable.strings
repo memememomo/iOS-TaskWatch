@@ -1,0 +1,58 @@
+/* 
+   Localizable.strings
+   TaskWatch
+
+   Created by Your Name on 11/02/07.
+   Copyright 2011 Your Org Name. All rights reserved.
+ */
+
+
+"START"    = "スタート";
+"STOP"     = "ストップ";
+"COMPLETE" = "完了";
+"CONFIG"   = "設定";
+"CONFIRM"  = "確認";
+
+"LOG" = "記録";
+
+"TITLE_WATCH_SETTING"      = "計測";
+"TITLE_WATCH_START_BUTTON" = "計測スタート";
+
+"SELECT_STRING" = "選択";
+
+"TITLE_LABEL"      = "タイトル";
+"CATEGORY_LABEL"   = "カテゴリ";
+"STOP_WATCH_TITLE" = "所要時間";
+"START_DATE"       = "開始時刻";
+"END_DATE"         = "終了時刻";
+"CHANGE_TITLE"     = "変更";
+
+
+"TOTALIZE"          = "集計";
+"SEG_TODAY"         = "今日";
+"SEG_ALL"           = "すべて";
+"SEG_PERIOD"        = "期間指定";
+"STOP_WATCH_FORMAT" = "%02d時間%02d分%06.3f秒";
+"SUM" = "合計";
+
+"ADD_CATEGORY"         = "カテゴリ追加";
+"ADD_CATEGORY_MESSAGE" = "新しいカテゴリ名を入力してください";
+
+"PERIOD" = "期間";
+"KIND"   = "分類";
+
+"PLEASE_INPUT_TITLE"      = "タイトルを入力してください";
+"PLEASE_INPUT_CATEGORY"   = "カテゴリを入力してください";
+
+"INFO"                   = "お知らせ";
+"PLEASE_INPUT_TEXT"      = "テキストを入力してください。";
+
+"FINISH_DELETE"          = "削除しました。";
+"FINISH_SAVE"            = "保存しました。";
+
+"SAVE_CONFIRM_MESSAGE"   = "保存しますか？";
+"DELETE_CONFIRM_MESSAGE" = "削除してもよろしいですか？";
+
+"CONFIRM_YES"            = "はい";
+"CONFIRM_NO"             = "いいえ";
+"CANCEL"                 = "キャンセル";

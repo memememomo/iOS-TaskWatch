@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'TaskWatch2' target in the 'TaskWatch2' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "Helper.h"
+#endif
+
+

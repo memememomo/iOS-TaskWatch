@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0814B95412FFAA4500301701 /* SimpleCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B95112FFAA4500301701 /* SimpleCoreData.m */; };
+		0814B95512FFAA4500301701 /* SimpleCoreDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B95312FFAA4500301701 /* SimpleCoreDataFactory.m */; };
+		0814B95812FFAA5500301701 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B95712FFAA5500301701 /* Helper.m */; };
+		0814B97D12FFADAB00301701 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0814B97C12FFADAB00301701 /* CoreData.framework */; };
+		0814B9D012FFAE9400301701 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0814B9CF12FFAE9400301701 /* Localizable.strings */; };
+		0814B9D212FFAE9E00301701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0814B9D112FFAE9E00301701 /* InfoPlist.strings */; };
+		0814B9DC12FFAFC800301701 /* TaskWatchSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B9DB12FFAFC800301701 /* TaskWatchSetting.m */; };
+		0814B9DF12FFB05400301701 /* CategoryPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B9DE12FFB05400301701 /* CategoryPickerView.m */; };
+		0814B9EA12FFB14B00301701 /* ConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B9E912FFB14B00301701 /* ConfigData.m */; };
+		0814B9EF12FFB1B200301701 /* DefaultCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B9EE12FFB1B200301701 /* DefaultCoreData.m */; };
+		0814BA2512FFB37800301701 /* TaskWatchSetting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814BA2412FFB37800301701 /* TaskWatchSetting.xib */; };
+		0814BA4312FFB6A400301701 /* totalize.png in Resources */ = {isa = PBXBuildFile; fileRef = 0814BA3F12FFB6A400301701 /* totalize.png */; };
+		0814BA4412FFB6A400301701 /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = 0814BA4012FFB6A400301701 /* category.png */; };
+		0814BA4512FFB6A400301701 /* bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 0814BA4112FFB6A400301701 /* bag.png */; };
+		0814BA4612FFB6A400301701 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0814BA4212FFB6A400301701 /* clock.png */; };
+		0814BA4912FFB7DA00301701 /* StopWatch.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 0814BA4812FFB7DA00301701 /* StopWatch.xcdatamodel */; };
+		0814BA8512FFBB2F00301701 /* TaskWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814BA8412FFBB2F00301701 /* TaskWatch.m */; };
+		0814BAB212FFC0F900301701 /* TaskWatch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814BAB112FFC0F900301701 /* TaskWatch.xib */; };
+		0814BAC812FFC2E600301701 /* CategoryPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814BAC712FFC2E600301701 /* CategoryPickerView.xib */; };
+		0814BB2B12FFD1B200301701 /* TaskWatchLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814BB2A12FFD1B200301701 /* TaskWatchLog.m */; };
+		0814BB3D12FFD48C00301701 /* SettingPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814BB3C12FFD48C00301701 /* SettingPeriod.m */; };
+		0814BB6C12FFDEB300301701 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814BB6B12FFDEB300301701 /* DatePickerView.m */; };
+		0814BB7D12FFDFC100301701 /* TaskWatchLogDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814BB7C12FFDFC100301701 /* TaskWatchLogDetail.m */; };
+		0814BB9012FFE20000301701 /* TaskWatchLogDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814BB8F12FFE20000301701 /* TaskWatchLogDetail.xib */; };
+		0814BBB912FFE4E400301701 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814BBB812FFE4E400301701 /* DatePickerView.xib */; };
+		08769A481300148F0015F0F5 /* TotalizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08769A471300148F0015F0F5 /* TotalizeView.m */; };
+		08769AA8130019B00015F0F5 /* TaskCategoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 08769AA3130019B00015F0F5 /* TaskCategoryTable.m */; };
+		08769AA9130019B00015F0F5 /* TaskCategoryTableDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 08769AA5130019B00015F0F5 /* TaskCategoryTableDetail.m */; };
+		08769AAA130019B00015F0F5 /* TaskCategoryTableAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 08769AA7130019B00015F0F5 /* TaskCategoryTableAdd.m */; };
+		08769B0B13001C190015F0F5 /* TaskCategoryTableDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08769B0A13001C190015F0F5 /* TaskCategoryTableDetail.xib */; };
+		08769B1113001C7A0015F0F5 /* TaskCategoryTableAdd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08769B1013001C7A0015F0F5 /* TaskCategoryTableAdd.xib */; };
+		1D3623260D0F684500981E51 /* TaskWatchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TaskWatchAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0814B95012FFAA4500301701 /* SimpleCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoreData.h; sourceTree = "<group>"; };
+		0814B95112FFAA4500301701 /* SimpleCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoreData.m; sourceTree = "<group>"; };
+		0814B95212FFAA4500301701 /* SimpleCoreDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoreDataFactory.h; sourceTree = "<group>"; };
+		0814B95312FFAA4500301701 /* SimpleCoreDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoreDataFactory.m; sourceTree = "<group>"; };
+		0814B95612FFAA5500301701 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		0814B95712FFAA5500301701 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		0814B97C12FFADAB00301701 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0814B9CF12FFAE9400301701 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0814B9D112FFAE9E00301701 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		0814B9DA12FFAFC800301701 /* TaskWatchSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWatchSetting.h; sourceTree = "<group>"; };
+		0814B9DB12FFAFC800301701 /* TaskWatchSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWatchSetting.m; sourceTree = "<group>"; };
+		0814B9DD12FFB05400301701 /* CategoryPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPickerView.h; sourceTree = "<group>"; };
+		0814B9DE12FFB05400301701 /* CategoryPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPickerView.m; sourceTree = "<group>"; };
+		0814B9E812FFB14B00301701 /* ConfigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigData.h; sourceTree = "<group>"; };
+		0814B9E912FFB14B00301701 /* ConfigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigData.m; sourceTree = "<group>"; };
+		0814B9ED12FFB1B200301701 /* DefaultCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultCoreData.h; sourceTree = "<group>"; };
+		0814B9EE12FFB1B200301701 /* DefaultCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultCoreData.m; sourceTree = "<group>"; };
+		0814BA2412FFB37800301701 /* TaskWatchSetting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskWatchSetting.xib; sourceTree = "<group>"; };
+		0814BA3F12FFB6A400301701 /* totalize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = totalize.png; sourceTree = "<group>"; };
+		0814BA4012FFB6A400301701 /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
+		0814BA4112FFB6A400301701 /* bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bag.png; sourceTree = "<group>"; };
+		0814BA4212FFB6A400301701 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		0814BA4812FFB7DA00301701 /* StopWatch.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = StopWatch.xcdatamodel; sourceTree = "<group>"; };
+		0814BA8312FFBB2F00301701 /* TaskWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWatch.h; sourceTree = "<group>"; };
+		0814BA8412FFBB2F00301701 /* TaskWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWatch.m; sourceTree = "<group>"; };
+		0814BAB112FFC0F900301701 /* TaskWatch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskWatch.xib; sourceTree = "<group>"; };
+		0814BAC712FFC2E600301701 /* CategoryPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryPickerView.xib; sourceTree = "<group>"; };
+		0814BB2912FFD1B200301701 /* TaskWatchLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWatchLog.h; sourceTree = "<group>"; };
+		0814BB2A12FFD1B200301701 /* TaskWatchLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWatchLog.m; sourceTree = "<group>"; };
+		0814BB3B12FFD48C00301701 /* SettingPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingPeriod.h; sourceTree = "<group>"; };
+		0814BB3C12FFD48C00301701 /* SettingPeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingPeriod.m; sourceTree = "<group>"; };
+		0814BB6A12FFDEB300301701 /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		0814BB6B12FFDEB300301701 /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		0814BB7B12FFDFC100301701 /* TaskWatchLogDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWatchLogDetail.h; sourceTree = "<group>"; };
+		0814BB7C12FFDFC100301701 /* TaskWatchLogDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWatchLogDetail.m; sourceTree = "<group>"; };
+		0814BB8F12FFE20000301701 /* TaskWatchLogDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskWatchLogDetail.xib; sourceTree = "<group>"; };
+		0814BBB812FFE4E400301701 /* DatePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
+		08769A461300148F0015F0F5 /* TotalizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalizeView.h; sourceTree = "<group>"; };
+		08769A471300148F0015F0F5 /* TotalizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalizeView.m; sourceTree = "<group>"; };
+		08769AA2130019B00015F0F5 /* TaskCategoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCategoryTable.h; sourceTree = "<group>"; };
+		08769AA3130019B00015F0F5 /* TaskCategoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCategoryTable.m; sourceTree = "<group>"; };
+		08769AA4130019B00015F0F5 /* TaskCategoryTableDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCategoryTableDetail.h; sourceTree = "<group>"; };
+		08769AA5130019B00015F0F5 /* TaskCategoryTableDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCategoryTableDetail.m; sourceTree = "<group>"; };
+		08769AA6130019B00015F0F5 /* TaskCategoryTableAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCategoryTableAdd.h; sourceTree = "<group>"; };
+		08769AA7130019B00015F0F5 /* TaskCategoryTableAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCategoryTableAdd.m; sourceTree = "<group>"; };
+		08769B0A13001C190015F0F5 /* TaskCategoryTableDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCategoryTableDetail.xib; sourceTree = "<group>"; };
+		08769B1013001C7A0015F0F5 /* TaskCategoryTableAdd.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCategoryTableAdd.xib; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TaskWatchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWatchAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TaskWatchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWatchAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TaskWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TaskWatch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWatch_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TaskWatch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TaskWatch-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				0814B97D12FFADAB00301701 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TaskWatchAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TaskWatchAppDelegate.m */,
+				0814B9DA12FFAFC800301701 /* TaskWatchSetting.h */,
+				0814B9DB12FFAFC800301701 /* TaskWatchSetting.m */,
+				0814BA2412FFB37800301701 /* TaskWatchSetting.xib */,
+				0814BA8312FFBB2F00301701 /* TaskWatch.h */,
+				0814BA8412FFBB2F00301701 /* TaskWatch.m */,
+				0814BAB112FFC0F900301701 /* TaskWatch.xib */,
+				0814BB2912FFD1B200301701 /* TaskWatchLog.h */,
+				0814BB2A12FFD1B200301701 /* TaskWatchLog.m */,
+				0814BB7B12FFDFC100301701 /* TaskWatchLogDetail.h */,
+				0814BB7C12FFDFC100301701 /* TaskWatchLogDetail.m */,
+				0814BB8F12FFE20000301701 /* TaskWatchLogDetail.xib */,
+				08769A461300148F0015F0F5 /* TotalizeView.h */,
+				08769A471300148F0015F0F5 /* TotalizeView.m */,
+				08769AA2130019B00015F0F5 /* TaskCategoryTable.h */,
+				08769AA3130019B00015F0F5 /* TaskCategoryTable.m */,
+				08769AA4130019B00015F0F5 /* TaskCategoryTableDetail.h */,
+				08769AA5130019B00015F0F5 /* TaskCategoryTableDetail.m */,
+				08769B0A13001C190015F0F5 /* TaskCategoryTableDetail.xib */,
+				08769AA6130019B00015F0F5 /* TaskCategoryTableAdd.h */,
+				08769AA7130019B00015F0F5 /* TaskCategoryTableAdd.m */,
+				08769B1013001C7A0015F0F5 /* TaskCategoryTableAdd.xib */,
+				0814BB3B12FFD48C00301701 /* SettingPeriod.h */,
+				0814BB3C12FFD48C00301701 /* SettingPeriod.m */,
+				0814BB6A12FFDEB300301701 /* DatePickerView.h */,
+				0814BB6B12FFDEB300301701 /* DatePickerView.m */,
+				0814BBB812FFE4E400301701 /* DatePickerView.xib */,
+				0814B9DD12FFB05400301701 /* CategoryPickerView.h */,
+				0814B9DE12FFB05400301701 /* CategoryPickerView.m */,
+				0814BAC712FFC2E600301701 /* CategoryPickerView.xib */,
+				0814B9E812FFB14B00301701 /* ConfigData.h */,
+				0814B9E912FFB14B00301701 /* ConfigData.m */,
+				0814B9ED12FFB1B200301701 /* DefaultCoreData.h */,
+				0814B9EE12FFB1B200301701 /* DefaultCoreData.m */,
+				0814B9E112FFB08D00301701 /* Library */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0814B9E112FFB08D00301701 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0814B95012FFAA4500301701 /* SimpleCoreData.h */,
+				0814B95112FFAA4500301701 /* SimpleCoreData.m */,
+				0814B95212FFAA4500301701 /* SimpleCoreDataFactory.h */,
+				0814B95312FFAA4500301701 /* SimpleCoreDataFactory.m */,
+				0814B95612FFAA5500301701 /* Helper.h */,
+				0814B95712FFAA5500301701 /* Helper.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TaskWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TaskWatch_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* TaskWatch-Info.plist */,
+				0814BA4812FFB7DA00301701 /* StopWatch.xcdatamodel */,
+				0814B9CF12FFAE9400301701 /* Localizable.strings */,
+				0814B9D112FFAE9E00301701 /* InfoPlist.strings */,
+				0814BA3F12FFB6A400301701 /* totalize.png */,
+				0814BA4012FFB6A400301701 /* category.png */,
+				0814BA4112FFB6A400301701 /* bag.png */,
+				0814BA4212FFB6A400301701 /* clock.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				0814B97C12FFADAB00301701 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TaskWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TaskWatch" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskWatch;
+			productName = TaskWatch2;
+			productReference = 1D6058910D05DD3D006BFB54 /* TaskWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TaskWatch" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TaskWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0814B9D012FFAE9400301701 /* Localizable.strings in Resources */,
+				0814B9D212FFAE9E00301701 /* InfoPlist.strings in Resources */,
+				0814BA2512FFB37800301701 /* TaskWatchSetting.xib in Resources */,
+				0814BA4312FFB6A400301701 /* totalize.png in Resources */,
+				0814BA4412FFB6A400301701 /* category.png in Resources */,
+				0814BA4512FFB6A400301701 /* bag.png in Resources */,
+				0814BA4612FFB6A400301701 /* clock.png in Resources */,
+				0814BAB212FFC0F900301701 /* TaskWatch.xib in Resources */,
+				0814BAC812FFC2E600301701 /* CategoryPickerView.xib in Resources */,
+				0814BB9012FFE20000301701 /* TaskWatchLogDetail.xib in Resources */,
+				0814BBB912FFE4E400301701 /* DatePickerView.xib in Resources */,
+				08769B0B13001C190015F0F5 /* TaskCategoryTableDetail.xib in Resources */,
+				08769B1113001C7A0015F0F5 /* TaskCategoryTableAdd.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TaskWatchAppDelegate.m in Sources */,
+				0814B95412FFAA4500301701 /* SimpleCoreData.m in Sources */,
+				0814B95512FFAA4500301701 /* SimpleCoreDataFactory.m in Sources */,
+				0814B95812FFAA5500301701 /* Helper.m in Sources */,
+				0814B9DC12FFAFC800301701 /* TaskWatchSetting.m in Sources */,
+				0814B9DF12FFB05400301701 /* CategoryPickerView.m in Sources */,
+				0814B9EA12FFB14B00301701 /* ConfigData.m in Sources */,
+				0814B9EF12FFB1B200301701 /* DefaultCoreData.m in Sources */,
+				0814BA4912FFB7DA00301701 /* StopWatch.xcdatamodel in Sources */,
+				0814BA8512FFBB2F00301701 /* TaskWatch.m in Sources */,
+				0814BB2B12FFD1B200301701 /* TaskWatchLog.m in Sources */,
+				0814BB3D12FFD48C00301701 /* SettingPeriod.m in Sources */,
+				0814BB6C12FFDEB300301701 /* DatePickerView.m in Sources */,
+				0814BB7D12FFDFC100301701 /* TaskWatchLogDetail.m in Sources */,
+				08769A481300148F0015F0F5 /* TotalizeView.m in Sources */,
+				08769AA8130019B00015F0F5 /* TaskCategoryTable.m in Sources */,
+				08769AA9130019B00015F0F5 /* TaskCategoryTableDetail.m in Sources */,
+				08769AAA130019B00015F0F5 /* TaskCategoryTableAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TaskWatch_Prefix.pch;
+				INFOPLIST_FILE = "TaskWatch-Info.plist";
+				PRODUCT_NAME = TaskWatch;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TaskWatch_Prefix.pch;
+				INFOPLIST_FILE = "TaskWatch-Info.plist";
+				PRODUCT_NAME = TaskWatch;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TaskWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TaskWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
